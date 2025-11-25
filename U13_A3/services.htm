@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+</head>
+<body bgcolor="#FFD26B">
+
+<body style="margin: 0 auto; max-width: 900px; font-family: Arial, Helvetica, Sans-serif;">
+
+<p>
+
+<img src="images/banner.png" alt="banner image for Mobile World Station" /></p>
+<p style="text-align: left">
+<a href="index.htm">Homepage</a> : 
+<a href="latest.htm">Latest</a> : 
+<a href="accessories.htm">Accessories</a> : 
+<a href="samsung.htm">Samsung</a> : 
+<a href="apple.htm">Apple</a> : 
+<a href="contact.htm">Contact</a> :
+<a href="services.htm">Services</a> :
+<a href="blogs.htm">Blogs</a></p>
+<h1>
+
+Services</h1>
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+<p>Here at Mobile World Station, we offer a variety of services designed to meet all your mobile phone needs. Whether you're looking to purchase the latest smartphones or accessories, we've got you covered with a wide selection of devices. If your phone needs repair, we provide quick and reliable services like screen replacements, battery changes, and software troubleshooting. We also offer trade-in programs and upgrade options to keep you up-to-date with the latest technology. For added peace of mind, you can protect your device with our insurance plans. Need help setting up your phone or resolving technical issues? Our expert support team is here to assist. Additionally, we offer mobile plans with data, voice, and text services, as well as mobile hotspot options. Plus, take advantage of our cloud storage and data backup solutions to keep your information safe and secure.</h3>
+
+<div id="header">
+<u><h1 style="font-family:Garamond; font-size:44px;  text-align:center">Cloud Storage</h1></u>
+</div>
+
+
+
+<p> Instead of purchasing, owning, and maintaining your own physical servers and infrastructure, you rent these services on a pay-as-you-go basis. These services offer a quick and flexible foundation for hosting, running, storing data, and managing web applications, from simple blogs to complex e-commerce sites and data.</p>
+
+<a href="https://cloud.google.com/storage">
+<img  src="images/cloud.png" border="4" alt="Cloud Storage"  width="280" height="225" > 
+</a>   
+<a href="https://www.microsoft.com/en-gb/microsoft-365/onedrive/online-cloud-storage">
+<img  src="images/onedrive.png" border="4" alt="OneDrive"  width="290" height="225" > 
+</a>
+
+<a href="https://workspace.google.com/intl/en_uk/products/drive/">
+<img  src="images/googledrive.png" border="4" alt="Google Drive"  width="290" height="225" > 
+</a>
+
+
+
+<div id="header">
+<u><h2 style="font-family:Garamond; font-size:44px;  text-align:center">Sim Deals</h2></u>
+</div>
+
+<p>A SIM Card is your phone's essential key, connecting you instantly to our superfast 5G network for calls, texts, and data. Already love your phone? Our range of Deals offer maximum value and flexibility. Keep your current device and get generous data allowances, unlimited talk, and free perks on short-term rolling or long-term value contracts. Get started today and stay connected your way!<p/>
+
+<a href="https://ee.co.uk/">
+<img  src="images/ee.png" border="4" alt="EE"  width="280" height="225" > 
+</a>
+
+<a href="https://www.vodafone.co.uk/">
+<img  src="images/vodafone.png" border="4" alt="Vodafone"  width="290" height="225" > 
+</a>
+
+<a href="https://www.o2.co.uk/">
+<img  src="images/o2.png" border="4" alt="O2"  width="290" height="225" > 
+</a>
+
+<div id="header">
+<u><h2 style="font-family:Garamond; font-size:44px;  text-align:center">Repairs</h2></u>
+</div>
+
+<p>Stop overpaying for simple fixes. We provide fast, professional, and affordable services from many different companys for all major smartphones and tablets. From screen replacements to complex board-level repairs, we use high-quality parts and back every job with a full warranty. We fix what manufacturers often replace.</p>
+
+<a href="https://ee.co.uk/local-repairs">
+<img  src="images/o2.png" border="4" alt="O2 Repairs"  width="280" height="225" > 
+</a>
+
+<a href="https://www.currys.co.uk/services/repairs-maintenance/tech-repairs/mobile-phone-repair.html">
+<img  src="images/currys.png" border="4" alt="CurrysPC Repairs"  width="290" height="225" > 
+</a>
+
+<a href="https://fixandgo.vodafone.co.uk/phone-repairs">
+<img  src="images/vodafone.png" border="4" alt="Vodafone Repair"  width="290" height="225" > 
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
