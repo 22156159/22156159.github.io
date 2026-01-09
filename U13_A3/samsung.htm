@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samsung</title>
+</head>
+<body bgcolor="#FFD26B">
+
+<body style="margin: 0 auto; max-width: 900px; font-family: Arial, Helvetica, Sans-serif;">
+
+<p>
+
+<img src="images/banner.png" alt="banner image for Mobile World Station" /></p>
+<p style="text-align: left">
+<a href="index.htm">Homepage</a> : 
+<a href="latest.htm">Latest</a> : 
+<a href="accessories.htm">Accessories</a> : 
+<a href="samsung.htm">Samsung</a> : 
+<a href="apple.htm">Apple</a> : 
+<a href="contact.htm">Contact</a> :
+<a href="services.htm">Services</a> :
+<a href="about.htm">About Us</a></p>
+<h1>
+
+Samsung</h1>
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+<iframe style="float:right;" width="400" height="600" src="https://www.youtube.com/embed/tcqpxT5X3zE" title="5 Best Samsung Phones 2025 | Top Galaxy Phones Ranked!" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<p>Samsung is a South Korean multinational conglomerate with a history dating back to 1938, though the well-known Samsung Electronics was founded in 1969. It began as a trading company and has since grown into a global leader in consumer electronics, information technology, and device solutions. Samsung is known for producing a wide range of products like TVs, smartphones, and appliances, and operates with a philosophy of creating superior products and contributing to society.  </p>
+
+
+<a href="https://www.samsung.com/uk/smartphones/galaxy-z-fold7/buy/">
+<img  src="images/fold7.png" alt="Galaxy Fold 7"  width="220" height="225" > 
+</a>
+
+
+<a href="https://www.argos.co.uk/product/4668101?clickSR=slp:term:samsung%20s25%20ultra:2:144:1">
+<img src="images/S25U.png" alt="S25 Ultra" width="260" height="225">
+</a> 
+
+<a href="https://www.samsung.com/uk/smartphones/galaxy-s24/buy/">
+<img  src="images/S24.png" alt="S24"  width="220" height="225" > 
+</a>
+
+<a href="https://www.samsung.com/uk/smartphones/galaxy-z-fold6/">
+<img  src="images/fold6.png" alt="Galaxy Fold 6"  width="271" height="225" > 
+</a>
+
+
+
+
+
+
+
+
+
+<!--    <img width="428" height="175" src="images/Phones.webp" alt="Phones" style="float: left;"> -->
+
+
+
+</body>
+</html>

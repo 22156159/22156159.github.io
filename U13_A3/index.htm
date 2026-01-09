@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mobile World Station</title>
+</head>
+<body bgcolor="#FFD26B">
+
+<body style="margin: 0 auto; max-width: 900px; font-family: Arial, Helvetica, Sans-serif;">
+
+<p>
+
+<img src="images/banner.png" alt="banner image for Mobile World Station" /></p>
+<p style="text-align: left">
+<a href="index.htm">Homepage</a> : 
+<a href="latest.htm">Latest</a> : 
+<a href="accessories.htm">Accessories</a> : 
+<a href="samsung.htm">Samsung</a> : 
+<a href="apple.htm">Apple</a> : 
+<a href="contact.htm">Contact</a> :
+<a href="services.htm">Services</a> :
+<a href="about.htm">About Us</a></p>
+<h1>
+
+Mobile World Station</h1>
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+
+<iframe style="float:right;" width="471" height="471" src="https://www.youtube.com/embed/jm66WvaSFdA" title="The best flagship phones 2025 to buy right now" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p> Mobile World Station is created and designed to find you the best deals money can buy. Here you will find undeniable offers on the latest tech and gadgets avaliable, Mobile World Station will always give you the best deals and will never fail to dissapoint. We offers a wide range of products and services, ranging from buying mobile phones directly, to getting insurance for your items. We also offer a wide range of sim deals for your phone so you can have the essentials on the go and without problems.</h3>
+
+
+<h2>Send e-mail to MobileWorldStation@gmail.com</h2>
+
+<form action="mailto:MobileWorldStation@gmail.com" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--    <img width="428" height="175" src="images/Phones.webp" alt="Phones" style="float: left;"> -->
+
+
+
+</body>
+</html>
